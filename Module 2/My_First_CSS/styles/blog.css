@@ -1,0 +1,45 @@
+h3{
+    font-size: 40px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace';
+}
+.header{
+    height: 600px;
+    /* background-color: aqua; */
+    /* background-image: url('../pic2.png'); */
+    /* background-image: url('../pic2.png'); */
+    /* background-image: url('../styles/image/pic2.jpg'); */
+    /* background-repeat:no-repeat; */
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 200px; */
+}
+.quis{
+    border: 2px solid peru;
+    height: 60px;
+    display: inline-block;
+}
+.blog{
+    margin:40px;
+    border: 10px solid teal;
+    box-shadow: 10px 10px 20px blueviolet;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.incident{
+    border: 1px solid purple;
+    box-shadow: 2px 2px 3px burlywood;
+    display: block;
+}
+.iure{
+    border: 2px solid purple;
+    margin: 20px;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+/* box shadow er jonno margin dita hobe */
