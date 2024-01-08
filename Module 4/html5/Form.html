@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h3> Please fill up the form</h3>
+            <form>
+                <label for="name">
+                        Your name : <input id="name" type="text" placeholder="name">
+                </label>
+                <label for="email">
+                        Your Email : <input type="email" placeholder="yourname@gmail.com">
+                </label>
+                <label for="phone">
+                        Your phone number : <input type="digit" id="phone" placeholder="your phone number"
+                </label>
+                <fieldset>
+                    <legend>Pick One Pitha</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="ouri">puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Pick one or more borta
+                    </legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="Alu">Alu
+                    </label>
+                    <label for ="Pepe">
+                        <input type="checkbox" name="vorta" id="pepe">Pepe
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                </fieldset>
+                <fieldset>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </fieldset>
+                
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
