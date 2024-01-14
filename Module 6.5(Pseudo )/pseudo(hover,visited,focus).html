@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        h3 {
+            color: blue;
+        }
+        h3 :hover {
+            color: red;
+            background-color: brown;
+        }
+        input:focus {
+            color:green;
+            outline: 0px;
+            border: 1px sloid purple;
+        }
+        a:visited { /*gap not allowed between a : visited*/
+            color: gray;
+        }
+        li:last-child {
+            color: red;
+        }
+        li:nth-child(2n) {
+            color: blue;
+        }
+        li:nth-child(2n + 1) {
+            color: rgb(226, 21, 178);
+        }
+    </style>
+</head>
+<body>
+    <h3>My heading </h3>
+    <input type="text" placeholder="text">
+    <br>
+    <input type="text" placeholder="text">
+    <br>
+    <input type="text" placeholder="text">
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+</body>
+</html>
